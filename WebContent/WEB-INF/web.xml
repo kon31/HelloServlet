@@ -9,20 +9,27 @@
   	<servlet-name>Hello</servlet-name>
   	<servlet-class>HelloServlet</servlet-class>
   </servlet>
-  
   <servlet-mapping>
   	<servlet-name>Hello</servlet-name>
   	<url-pattern>/HelloServlet/HelloServlet</url-pattern>
   </servlet-mapping>
   
-   <servlet>
+  <servlet>
   	<servlet-name>Welcome</servlet-name>
   	<servlet-class>WelcomeServlet</servlet-class>
   </servlet>
-  
   <servlet-mapping>
   	<servlet-name>Welcome</servlet-name>
   	<url-pattern>/HelloServlet/WelcomeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Inquiry</servlet-name>
+  	<servlet-class>InqueryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Inquiry</servlet-name>
+  	<url-pattern>/HelloServlet/InqueryServlet</url-pattern>
   </servlet-mapping>
   
 </web-app>
