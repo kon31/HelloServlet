@@ -32,4 +32,13 @@
   	<url-pattern>/HelloServlet/InqueryServlet</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+  	<servlet-name>Test</servlet-name>
+  	<servlet-class>TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Test</servlet-name>
+  	<url-pattern>/HelloServlet/TestServlet</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
