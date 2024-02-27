@@ -19,10 +19,10 @@ GET通信
 </form>
 POST通信
 <br>
-<from method="post" action="TestServlet">
+<form method="post" action="TestServlet">
 <input type="text" name="username">
 <input type="password" name="password">
 <input type="submit" value="送信">
-</from>
+</form>
 </body>
 </html>
